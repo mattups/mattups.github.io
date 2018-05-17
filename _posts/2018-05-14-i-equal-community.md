@@ -1,6 +1,8 @@
 ---
 layout: post
 title: I == community
+tags:
+    - Open source
 ---
 
 Ok, so this is my first post in my first blog ever. Cool!
