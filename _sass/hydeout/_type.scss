@@ -10,18 +10,27 @@ h1, h2, h3, h4, h5, h6, .site-title {
   text-rendering: optimizeLegibility;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $sub-root-font-family;
+  text-transform: uppercase;
+}
+
+.site-title {
+  text-transform: none;
+}
+
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 0.8rem;
 }
 
 h4, h5, h6 {

@@ -40,7 +40,7 @@ body {
   padding: $section-spacing;
 
   .site-title {
-    font-family: "Prata", serif;
+    font-family: $main-title-font-family;
     font-weight: normal;
     font-size: $large-font-size;
     color: rgba(255,255,255,.75);
@@ -49,6 +49,8 @@ body {
 
     a {
       color: inherit;
+      // TODO Fix font-size
+      // font-size: 4rem;
       &:hover { color: $sidebar-title-color; }
     }
 
@@ -81,8 +83,10 @@ body {
 // Hide secondary nav content in sidebar
 // Hide lead paragraph in sidebar
 #sidebar {
+
   header ~ *, header ~ nav, p.lead {
     display: none;
+    font-family: $sub-root-font-family;
   }
 
   p {
@@ -305,3 +309,4 @@ body {
     }
   }
 }
+

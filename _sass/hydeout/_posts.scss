@@ -3,6 +3,11 @@
 // Each post is wrapped in `.post` and is used on default and post layouts. Each
 // page is wrapped in `.page` and is only used on the page layout.
 
+
+.post-body a {
+  //font-family: $sub-root-font-family;
+}
+
 article + *, .post-body ~ section {
   padding-top: $section-spacing;
   border-top: 1px solid $border-color;
@@ -26,10 +31,13 @@ article + *, .post-body ~ section {
 .post-title,
 .post-title a {
   color: $heading-color;
+  font-family: $sub-root-font-family;
 }
+
 .page-title,
 .post-title {
   margin-top: 0;
+  text-transform: uppercase;
 }
 
 // h1-size h2
@@ -42,13 +50,19 @@ h2.post-title, h2.page-title {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: $body-muted;
+  font-family: $sub-root-font-family;
+  font-weight: 400;
 }
 
 .post-tags a {
+  font-family: $sub-root-font-family;
   font-size: 0.8em;
   margin-right: 0.5rem;
   white-space:nowrap;
-  .tag-name { text-transform: capitalize; }
+
+  .tag-name {
+    text-transform: uppercase;
+  }
 
   opacity: 0.75;
   &:hover {

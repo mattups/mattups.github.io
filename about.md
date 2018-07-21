@@ -10,6 +10,6 @@ always looking for new technologies and methods.
 
 Experienced and certified by VMware on virtualization technologies and skilled in Microsoft/Linux environments. 
 
-You can see my full resume [here](https://mattups.github.io/resume/)
+You can see my full resume [here](https://mattups.github.io/resume/).
 
 But... Life isn't all about code and shells! I also love music, drawing, literature, sculpting and everything that's Art.

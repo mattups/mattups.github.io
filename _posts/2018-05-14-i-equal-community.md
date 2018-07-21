@@ -3,6 +3,7 @@ layout: post
 title: I == community
 tags:
     - Open source
+    - IT philosophy
 ---
 
 Ok, so this is my first post in my first blog ever. Cool!
@@ -52,7 +53,7 @@ clean, secure and rock-solid. This is also why I was talking about trust. You wi
 from some lines of code you don't trust. Here is where self-confidence kicks in.
 
 Are you ready to create a pull request? Are you brave enough to face the bearded ancients maintainers of the community?
-You have to be sure of what you're doing before saying "Hey, I wrote a bunch of lines of keep to mess up your codebase!",
+You have to be sure of what you're doing before saying "Hey, I wrote a bunch of lines of code to mess up your codebase!",
 because your code will be on somebody else repository and accessible to everyone.
 
 This is the power of open source community. There are senior developers and junior newbies who constantly contribute to 

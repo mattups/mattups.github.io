@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Tups life
+title:            Tups Life
 tagline:          'Yet another blog'
 description:      'Code, deploy, coffee. Lots of them.'
 url:              https://mattups.github.io/hydeout
